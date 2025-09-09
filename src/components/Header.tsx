@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { ThemeToggle } from './ThemeToggle';
 
 interface HeaderProps {
   data: {
@@ -62,12 +61,10 @@ const Header = ({ data }: HeaderProps) => {
                 {item.label}
               </a>
             ))}
-            <ThemeToggle />
           </div>
 
-          {/* Mobile Menu & Theme Toggle */}
-          <div className="flex items-center space-x-2 md:hidden">
-            <ThemeToggle />
+          {/* Mobile Menu Button */}
+          <div className="flex items-center md:hidden">
             <Button
               variant="ghost"
               size="sm"

@@ -5,13 +5,13 @@
     "tagline": "Building the Future of Decentralized Web",
     "bio": "Passionate Web3 full-stack developer with expertise in blockchain technologies, smart contracts, and decentralized applications. I specialize in Solidity, React, Node.js, and modern Web3 tools to create innovative solutions for the decentralized future.",
     "location": "India",
-    "email": "vasu.garg@example.com",
-    "phone": "+91 98765 43210"
+    "email": "virtualvasu624@gmail.com",
+    "phone": "+91 9084690147"
   },
   "social": {
-    "github": "https://github.com/vasugarg",
-    "linkedin": "https://linkedin.com/in/vasugarg",
-    "twitter": "https://twitter.com/vasugarg",
+    "github": "https://github.com/virtualvasu",
+    "linkedin": "https://linkedin.com/in/garg-vasu",
+    "twitter": "https://twitter.com/virtualvasu624",
     "portfolio": "https://vasugarg.dev"
   },
   "skills": {
@@ -24,7 +24,8 @@
           { "name": "Ethers.js", "level": 88 },
           { "name": "Web3.js", "level": 80 },
           { "name": "IPFS", "level": 75 },
-          { "name": "Lit Protocol", "level": 70 }
+          { "name": "Lit Protocol", "level": 70 },
+          { "name": "Storacha", "level": 90 }
         ]
       },
       {
