@@ -83,14 +83,14 @@ const Index = () => {
         {/* Hero Section */}
         <Hero data={data.personal} social={data.social} personal={data.personal} />
 
+        {/* Experience & Education Section */}
+        <Experience experience={data.experience} education={data.education} />
+
         {/* Projects Section */}
         <Projects projects={data.projects} />
 
         {/* Skills Section */}
         <Skills skills={data.skills} />
-
-        {/* Experience & Education Section */}
-        <Experience experience={data.experience} education={data.education} />
 
         {/* Contact Section */}
         <Contact personal={data.personal} social={data.social} />

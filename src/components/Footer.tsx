@@ -64,9 +64,9 @@ const Footer = ({ personal, social }: FooterProps) => {
             <nav className="flex flex-col space-y-2">
               {[
                 { href: '#about', label: 'About' },
+                { href: '#experience', label: 'Experience' },
                 { href: '#projects', label: 'Projects' },
                 { href: '#skills', label: 'Skills' },
-                { href: '#experience', label: 'Experience' },
                 { href: '#contact', label: 'Contact' },
               ].map((link) => (
                 <a
