@@ -1,0 +1,232 @@
+{
+  "personal": {
+    "name": "Vasu Garg",
+    "title": "Web3 Full-Stack Developer",
+    "tagline": "Building the Future of Decentralized Web",
+    "bio": "Passionate Web3 full-stack developer with expertise in blockchain technologies, smart contracts, and decentralized applications. I specialize in Solidity, React, Node.js, and modern Web3 tools to create innovative solutions for the decentralized future.",
+    "location": "India",
+    "email": "vasu.garg@example.com",
+    "phone": "+91 98765 43210"
+  },
+  "social": {
+    "github": "https://github.com/vasugarg",
+    "linkedin": "https://linkedin.com/in/vasugarg",
+    "twitter": "https://twitter.com/vasugarg",
+    "portfolio": "https://vasugarg.dev"
+  },
+  "skills": {
+    "categories": [
+      {
+        "name": "Blockchain & Web3",
+        "skills": [
+          { "name": "Solidity", "level": 90 },
+          { "name": "Hardhat", "level": 85 },
+          { "name": "Ethers.js", "level": 88 },
+          { "name": "Web3.js", "level": 80 },
+          { "name": "IPFS", "level": 75 },
+          { "name": "Lit Protocol", "level": 70 }
+        ]
+      },
+      {
+        "name": "Frontend Development",
+        "skills": [
+          { "name": "React", "level": 92 },
+          { "name": "Next.js", "level": 88 },
+          { "name": "TypeScript", "level": 85 },
+          { "name": "Tailwind CSS", "level": 90 },
+          { "name": "Vite", "level": 80 }
+        ]
+      },
+      {
+        "name": "Backend Development",
+        "skills": [
+          { "name": "Node.js", "level": 88 },
+          { "name": "Express.js", "level": 85 },
+          { "name": "GraphQL", "level": 78 },
+          { "name": "PostgreSQL", "level": 80 },
+          { "name": "MongoDB", "level": 75 }
+        ]
+      },
+      {
+        "name": "Tools & DevOps",
+        "skills": [
+          { "name": "Git", "level": 90 },
+          { "name": "Docker", "level": 75 },
+          { "name": "Vercel", "level": 85 },
+          { "name": "AWS", "level": 70 },
+          { "name": "Figma", "level": 80 }
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "DeFi Lending Protocol",
+      "description": "A decentralized lending and borrowing platform built on Ethereum with automated liquidation mechanisms and dynamic interest rates.",
+      "longDescription": "Built a comprehensive DeFi lending protocol featuring collateralized loans, automated liquidations, and governance tokens. Implemented advanced smart contract security patterns and integrated with Chainlink oracles for price feeds.",
+      "techStack": ["Solidity", "Hardhat", "React", "Ethers.js", "Chainlink", "OpenZeppelin"],
+      "githubUrl": "https://github.com/vasugarg/defi-lending",
+      "liveUrl": "https://defi-lending.vasugarg.dev",
+      "imageUrl": "/images/projects/defi-lending.png",
+      "featured": true,
+      "status": "completed"
+    },
+    {
+      "id": 2,
+      "title": "NFT Marketplace",
+      "description": "A full-featured NFT marketplace with minting, trading, and royalty distribution functionality built on Polygon network.",
+      "longDescription": "Created a gas-efficient NFT marketplace on Polygon with lazy minting, batch operations, and creator royalties. Features advanced search, filtering, and auction mechanisms.",
+      "techStack": ["Solidity", "Next.js", "IPFS", "Polygon", "TheGraph", "Web3.js"],
+      "githubUrl": "https://github.com/vasugarg/nft-marketplace",
+      "liveUrl": "https://nft-marketplace.vasugarg.dev",
+      "imageUrl": "/images/projects/nft-marketplace.png",
+      "featured": true,
+      "status": "completed"
+    },
+    {
+      "id": 3,
+      "title": "DAO Governance Platform",
+      "description": "A comprehensive DAO governance platform with proposal creation, voting mechanisms, and treasury management features.",
+      "longDescription": "Developed a full-stack DAO governance platform enabling decentralized decision-making with time-locked proposals, quadratic voting, and multi-sig treasury management.",
+      "techStack": ["Solidity", "React", "Node.js", "PostgreSQL", "Lit Protocol", "Arweave"],
+      "githubUrl": "https://github.com/vasugarg/dao-governance",
+      "liveUrl": "https://dao-platform.vasugarg.dev",
+      "imageUrl": "/images/projects/dao-governance.png",
+      "featured": true,
+      "status": "completed"
+    },
+    {
+      "id": 4,
+      "title": "Cross-Chain Bridge",
+      "description": "A secure cross-chain bridge enabling asset transfers between Ethereum and Polygon networks with minimal fees.",
+      "longDescription": "Built a trustless cross-chain bridge using LayerZero protocol for seamless asset transfers. Implemented advanced security measures and optimistic verification.",
+      "techStack": ["Solidity", "LayerZero", "React", "Ethers.js", "Hardhat", "TypeScript"],
+      "githubUrl": "https://github.com/vasugarg/cross-chain-bridge",
+      "liveUrl": "https://bridge.vasugarg.dev",
+      "imageUrl": "/images/projects/cross-chain-bridge.png",
+      "featured": false,
+      "status": "completed"
+    },
+    {
+      "id": 5,
+      "title": "Web3 Social Network",
+      "description": "A decentralized social network with token-gated communities and NFT profile pictures, built on IPFS and Ethereum.",
+      "longDescription": "Created a Web3-native social platform featuring decentralized storage, token-based access control, and NFT integrations. Users own their data and content.",
+      "techStack": ["Solidity", "IPFS", "React", "Ceramic", "Lit Protocol", "Next.js"],
+      "githubUrl": "https://github.com/vasugarg/web3-social",
+      "liveUrl": "https://social.vasugarg.dev",
+      "imageUrl": "/images/projects/web3-social.png",
+      "featured": false,
+      "status": "in-progress"
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "company": "Blockchain Startup Inc.",
+      "position": "Senior Web3 Developer",
+      "duration": "Jan 2023 - Present",
+      "location": "Remote",
+      "description": "Led development of core DeFi protocols and smart contract architecture. Mentored junior developers and established security best practices.",
+      "achievements": [
+        "Developed and deployed 15+ smart contracts managing $2M+ TVL",
+        "Reduced gas costs by 40% through contract optimization",
+        "Built comprehensive test suites with 95%+ coverage"
+      ],
+      "techStack": ["Solidity", "Hardhat", "React", "Node.js", "AWS"]
+    },
+    {
+      "id": 2,
+      "company": "Tech Solutions Ltd.",
+      "position": "Full-Stack Developer",
+      "duration": "Jun 2022 - Dec 2022",
+      "location": "Bangalore, India",
+      "description": "Developed Web3 integrations for traditional web applications and built dApp frontends with modern React frameworks.",
+      "achievements": [
+        "Integrated Web3 wallets into existing platforms",
+        "Built responsive dApp interfaces for 5+ protocols",
+        "Implemented efficient state management with Redux"
+      ],
+      "techStack": ["React", "Web3.js", "Express.js", "PostgreSQL"]
+    },
+    {
+      "id": 3,
+      "company": "StartupXYZ",
+      "position": "Frontend Developer Intern",
+      "duration": "Jan 2022 - May 2022",
+      "location": "Mumbai, India",
+      "description": "Contributed to frontend development of blockchain analytics dashboard and learned Web3 development fundamentals.",
+      "achievements": [
+        "Built interactive charts for blockchain data visualization",
+        "Implemented responsive design for mobile users",
+        "Collaborated with design team on user experience"
+      ],
+      "techStack": ["React", "Chart.js", "Tailwind CSS", "Firebase"]
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "institution": "Indian Institute of Technology (IIT)",
+      "degree": "Bachelor of Technology",
+      "field": "Computer Science Engineering",
+      "duration": "2019 - 2023",
+      "location": "Delhi, India",
+      "gpa": "8.5/10.0",
+      "achievements": [
+        "Graduated with First Class Honours",
+        "President of Blockchain and Cryptocurrency Club",
+        "Winner of Inter-IIT Blockchain Hackathon 2022"
+      ]
+    },
+    {
+      "id": 2,
+      "institution": "Delhi Public School",
+      "degree": "High School",
+      "field": "Science Stream (PCM + Computer Science)",
+      "duration": "2017 - 2019",
+      "location": "Delhi, India",
+      "percentage": "95.2%",
+      "achievements": [
+        "School Topper in Computer Science",
+        "National Science Olympiad Gold Medalist",
+        "Head of Computer Science Club"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Certified Ethereum Developer",
+      "issuer": "ConsenSys Academy",
+      "date": "2023",
+      "credentialUrl": "https://consensys.net/academy/bootcamp/"
+    },
+    {
+      "name": "AWS Certified Solutions Architect",
+      "issuer": "Amazon Web Services",
+      "date": "2023",
+      "credentialUrl": "https://aws.amazon.com/certification/"
+    },
+    {
+      "name": "Solidity Smart Contract Security",
+      "issuer": "OpenZeppelin",
+      "date": "2022",
+      "credentialUrl": "https://openzeppelin.com/security-audits/"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "DeFi Protocol Launch",
+      "description": "Successfully launched a DeFi lending protocol that reached $2M TVL within 3 months"
+    },
+    {
+      "title": "Open Source Contributions",
+      "description": "Contributed to major Web3 open source projects with 500+ GitHub stars"
+    },
+    {
+      "title": "Hackathon Winner",
+      "description": "Won 1st place in ETHIndia 2023 hackathon for innovative cross-chain solution"
+    }
+  ]
+}
