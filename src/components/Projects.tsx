@@ -67,11 +67,20 @@ const Projects = ({ projects }: ProjectsProps) => {
             >
               {/* Project Image */}
               <div className="relative mb-4 rounded-lg overflow-hidden bg-muted aspect-video">
-                <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-accent/20 flex items-center justify-center">
-                  <div className="text-6xl font-bold text-primary/30">
-                    {project.title.charAt(0)}
-                  </div>
-                </div>
+                <img
+                  src={project.imageUrl}
+                  alt={project.title}
+                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  onError={(e) => {
+                    const target = e.currentTarget;
+                    target.style.display = 'none';
+                    target.parentElement?.classList.add('fallback-bg');
+                    const fallback = document.createElement('div');
+                    fallback.className = 'absolute inset-0 bg-gradient-to-tr from-primary/20 to-accent/20 flex items-center justify-center';
+                    fallback.innerHTML = `<div class="text-6xl font-bold text-primary/30">${project.title.charAt(0)}</div>`;
+                    target.parentElement?.appendChild(fallback);
+                  }}
+                />
                 {/* Status Badge */}
                 <div className="absolute top-3 right-3">
                   <Badge 
